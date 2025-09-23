@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "icon": "/fb.svg"
+    },
+    {
+      "id": 2,
+      "icon": "/insta.svg"
+    },
+    {
+      "id": 3,
+      "icon": "/twitter.svg"
+    }
+]

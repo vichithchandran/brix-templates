@@ -1,48 +1,31 @@
 "use client";
 import Image from "next/image";
+import socials from "@/data/socials.json"
+import otherPages from "@/data/otherPages.json"
+import quickLinks from "@/data/quickLinks.json"
 
 export default function Footer() {
-  const socials = [
-    {
-      id: 1,
-      icon: "/fb.svg",
-    },
-    {
-      id: 2,
-      icon: "/insta.svg",
-    },
-    {
-      id: 3,
-      icon: "/twitter.svg",
-    },
-  ];
-
-  const otherPages = ["Home", "About Us", "Services", "Token Sale", "Contact"];
-
-  const quickLinks = [
-    "Privacy Policy",
-    "Term Of Service",
-    "Disclaimer",
-    "Credits",
-    "FAQ",
-  ];
-
   return (
     <footer className="relative text-white">
       <div
-        className="absolute inset-0 bg-no-repeat z-[-1]"
+        className="absolute inset-0 bg-no-repeat"
         style={{
-          background: `linear-gradient(
-            360deg,
-            #1F5464 0%,
-            rgba(9, 28, 35, 0) 85.5%
-            ), url('/pngwing 24.svg') no-repeat`,
-          backgroundSize: "1000px 1000px",
-          backgroundPosition: "left -190px top 60px",
+          background: `linear-gradient(360deg, #1F5464 -10%, rgba(9, 28, 35, 0) 60%)`,
+          height: "100%",
+          width: "100%",
         }}
       ></div>
-      <div className="container mx-auto  py-12 grid grid-cols-1 md:grid-cols-4 gap-10 border-b border-white/10 px-[100px]">
-        <div>
+      <div
+        className="absolute inset-0 bg-no-repeat z-[-1]"
+        style={{
+          backgroundImage: `url('/pngwing 24.svg')`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "1000px 1000px",
+          backgroundPosition: "left -190px top 120px",
+        }}
+      ></div>
+      <div className="container mx-auto py-12 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-10  px-[100px]">
+        <div className="z-20">
           <div className="flex items-center space-x-2 mb-3">
             <div className="font-1 flex items-center gap-3 text-[32px]">
               <Image
@@ -65,16 +48,16 @@ export default function Footer() {
                 key={social.id}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`p-3 rounded-fulltransition`}
+                className={`p-2 rounded-fulltransition`}
               >
-                <Image src={social.icon} width={40} height={40} />
+                <Image src={social.icon} alt={social.id} width={40} height={40} />
               </a>
             ))}
           </div>
         </div>
 
-        {/* Other Pages */}
-        <div>
+
+        <div className="z-20">
           <h3 className="font-semibold text-[20px] font-2 mb-4">Other Pages</h3>
           <ul className="space-y-6 text-[16px] font-2">
             {otherPages.map((item) => (
@@ -92,8 +75,8 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Quick Links */}
-        <div>
+
+        <div className="z-20">
           <h3 className="font-semibold text-[20px] font-2 mb-4">Quick Links</h3>
           <ul className="space-y-6 text-[16px]">
             {quickLinks.map((link) => (
@@ -111,8 +94,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Newsletter */}
-        <div>
+        <div className="z-20">
           <h3 className="font-semibold text-[20px] font-2 mb-4">Newsletter</h3>
           <p className="text-[16px] mb-4">
             At habitant maecenas lacus adipiscing non. Accumsan etiam non
@@ -131,16 +113,15 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar */}
-      <div className="container mx-auto px-[130px] py-4 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-        {/* Left Section - Language */}
-        <div className="flex items-center gap-2 cursor-pointer mb-3 md:mb-0">
-          <Image src="/globe.svg" alt="Globe" width={14} height={14} />
+      <div className="border-t-[3px] border-white/10"></div>
+      <div className="container mx-auto px-4 sm:px-6 md:px-10 lg:px-20 xl:px-[130px] h-auto md:h-[71px] flex flex-col md:flex-row justify-between items-center text-sm sm:text-base text-white space-y-3 md:space-y-0">
+        <div className="flex items-center gap-2 cursor-pointer z-20">
+          <Image src="/globe.svg" alt="Globe" width={16} height={16} />
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 sm:gap-4">
             <span>Cestina</span>
             <Image
-              className="mt-1"
+              className="mt-0.5"
               src="/arrow-down.svg"
               alt="Dropdown"
               width={12}
@@ -149,18 +130,19 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Right Section - Links + Copyright */}
-        <div className="flex items-center space-x-6">
-          <a href="#" className="hover:text-white transition">
+        <div className="flex flex-wrap justify-center md:justify-end items-center gap-3 sm:gap-6 text-xs sm:text-sm md:text-base z-20">
+          <a href="#" className="hover:text-[#5F82FF] transition">
             Privacy Policy
           </a>
-          <a href="#" className="hover:text-white transition">
+          <a href="#" className="hover:text-[#5F82FF] transition">
             Notice at Collection
           </a>
-          <a href="#" className="hover:text-white transition">
+          <a href="#" className="hover:text-[#5F82FF] transition">
             Terms
           </a>
-          <p>Copyright © 2023 Atlassian</p>
+          <p className="text-gray-300 text-center md:text-right">
+            © 2023 Atlassian
+          </p>
         </div>
       </div>
     </footer>

@@ -20,7 +20,6 @@
 }
 
 body {
-  /* background: var(--background); */
   background: var(--background);
   color: var(--foreground);
 }
@@ -37,4 +36,94 @@ body {
 }
 .font-4 {
   font-family: var(--font-opensans), sans-serif;
+}
+
+/* testimonials movement  */
+@keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+       transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 25s linear infinite;
+ 
+}
+        
+/* header bubble movement */
+.bubble-move {
+  animation: bubbleMove 4s ease-in-out 2s 3; 
+  animation-iteration-count: infinite
+}
+
+.bubble-move-2 {
+  animation: bubbleMove2 4s ease-in-out 2s 3;
+  animation-iteration-count: infinite
+}
+
+@keyframes bubbleMove {
+  0% {
+    background-position: right 220px top 400px; 
+  }
+  25% {
+    background-position: right 50px top 260px;  
+  }
+  50% {
+    background-position: right 400px top 260px; 
+  }
+  100% {
+    background-position: right 220px top 400px; 
+  }
+}
+@keyframes bubbleMove2 {
+  0% {
+    background-position: right 580px top 500px; 
+  }
+  25% {
+    background-position: right 630px top 380px; 
+  }
+  50% {
+    background-position: right 720px top 580px;
+  }
+  100% {
+    background-position: right 580px top 500px; /* back to start */
+  }
+}
+
+/* rotating Words */
+.rotatingContainer {
+  height: 56px;
+  width: 500px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: baseline;
+}
+
+.rotatingTexts {
+  display: block;
+  animation: slide 6s cubic-bezier(.85, 0, .15, 1) infinite;
+}
+
+.rotatingTexts div {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes slide {
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(0); }
+
+  33%  { transform: translateY(-56px); }
+  63%  { transform: translateY(-56px); }
+
+  66%  { transform: translateY(-112px); }
+  96%  { transform: translateY(-112px); }
+
+  100% { transform: translateY(0); }
 }

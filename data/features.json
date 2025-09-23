@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "img": "/Service Section.svg",
+    "title": "Lorem Ipsum",
+    "text": "Est quisque interdum gravida dui. Egestas morbi maecenas eu massa."
+  },
+  {
+    "id": 2,
+    "img": "/Service Section.svg",
+    "title": "Lorem Ipsum",
+    "text": "Est quisque interdum gravida dui. Egestas morbi maecenas eu massa."
+  },
+  {
+    "id": 3,
+    "img": "/Service Section.svg",
+    "title": "Lorem Ipsum",
+    "text": "Est quisque interdum gravida dui. Egestas morbi maecenas eu massa."
+  }
+]
