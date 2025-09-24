@@ -1,0 +1,5 @@
+# Enforce LF for all text files (JS, CSS, JSON, HTML, SVG, etc.)
+* text=auto eol=lf
+
+# Allow Windows batch files to keep CRLF
+*.bat text eol=crlf
