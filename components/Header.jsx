@@ -40,12 +40,14 @@ export default function Header() {
         <ul className="hidden md:flex gap-6 lg:gap-10 xl:gap-14 items-center font-2 text-sm lg:text-base">
           <li className="hover:text-[#5F82FF] hover:font-semibold cursor-pointer">Home</li>
           <li className="hover:text-[#5F82FF] hover:font-semibold cursor-pointer">About Us</li>
-          <li className="hover:text-[#5F82FF] hover:font-semibold cursor-pointer">Page</li>
+          <li className="hover:text-[#5F82FF] hover:font-semibold cursor-pointer">
+            <a href="/tax" className="inline-block">Tax Services</a>
+          </li>
           <li className="hover:text-[#5F82FF] hover:font-semibold cursor-pointer">News</li>
           <li className="hover:text-[#5F82FF] hover:font-semibold cursor-pointer">Contact Us</li>
-          <button className="ml-2 lg:ml-4 px-3 sm:px-4 py-2 bg-[#5F82FF] font-semibold rounded-md">
+          <a href="/tax" className="ml-2 lg:ml-4 px-3 sm:px-4 py-2 bg-[#5F82FF] font-semibold rounded-md">
             Get Started
-          </button>
+          </a>
         </ul>
 
         <button className="md:hidden text-2xl">☰</button>
