@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "GST Registration & Filing",
+    "description": "Complete GST registration, monthly/quarterly returns filing, and compliance management for businesses of all sizes.",
+    "icon": "📋",
+    "features": [
+      "GST Registration (New & Amendment)",
+      "Monthly/Quarterly GSTR Filing",
+      "GSTR-1, GSTR-3B, GSTR-9 Filing",
+      "GST Audit & Reconciliation",
+      "Input Tax Credit Optimization"
+    ],
+    "price": "Starting from ₹2,999",
+    "color": "from-blue-500 to-blue-600"
+  },
+  {
+    "id": 2,
+    "title": "Income Tax Filing",
+    "description": "Professional income tax return filing for individuals, HUF, and businesses with maximum refund optimization.",
+    "icon": "💰",
+    "features": [
+      "ITR-1 to ITR-7 Filing",
+      "Tax Planning & Optimization",
+      "TDS Certificate Processing",
+      "Refund Status Tracking",
+      "Tax Notice Handling"
+    ],
+    "price": "Starting from ₹1,999",
+    "color": "from-green-500 to-green-600"
+  },
+  {
+    "id": 3,
+    "title": "TDS Compliance",
+    "description": "Complete TDS management including quarterly returns, certificate generation, and compliance tracking.",
+    "icon": "📊",
+    "features": [
+      "TDS Return Filing (24Q, 26Q, 27Q)",
+      "TDS Certificate Generation",
+      "TDS Reconciliation",
+      "Interest & Penalty Calculation",
+      "TDS Audit Support"
+    ],
+    "price": "Starting from ₹1,499",
+    "color": "from-purple-500 to-purple-600"
+  },
+  {
+    "id": 4,
+    "title": "Tax Advisory",
+    "description": "Expert tax consultation and planning services to minimize tax liability and ensure compliance.",
+    "icon": "🎯",
+    "features": [
+      "Tax Planning Strategies",
+      "Business Structure Optimization",
+      "International Tax Compliance",
+      "Transfer Pricing",
+      "Tax Litigation Support"
+    ],
+    "price": "Starting from ₹5,999",
+    "color": "from-orange-500 to-orange-600"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "step": "01",
+    "title": "Document Collection",
+    "description": "Upload your documents through our secure portal or schedule a pickup service.",
+    "icon": "📁"
+  },
+  {
+    "id": 2,
+    "step": "02",
+    "title": "Expert Review",
+    "description": "Our tax experts review your documents and prepare your tax returns.",
+    "icon": "🔍"
+  },
+  {
+    "id": 3,
+    "step": "03",
+    "title": "Tax Optimization",
+    "description": "We identify all possible deductions and credits to maximize your refund.",
+    "icon": "⚡"
+  },
+  {
+    "id": 4,
+    "step": "04",
+    "title": "Filing & Submission",
+    "description": "We file your returns with the tax department and provide confirmation.",
+    "icon": "📤"
+  },
+  {
+    "id": 5,
+    "step": "05",
+    "title": "Refund Tracking",
+    "description": "Track your refund status and receive updates until money reaches your account.",
+    "icon": "📈"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Expert Tax Professionals",
+    "description": "Our team of qualified CAs and tax experts with 10+ years of experience ensure accurate and compliant tax filing.",
+    "icon": "👨‍💼",
+    "stat": "500+",
+    "statLabel": "Tax Experts"
+  },
+  {
+    "id": 2,
+    "title": "Maximum Refund Guarantee",
+    "description": "We guarantee maximum tax refunds through proper tax planning and optimization strategies.",
+    "icon": "💸",
+    "stat": "₹2.5Cr+",
+    "statLabel": "Refunds Secured"
+  },
+  {
+    "id": 3,
+    "title": "100% Compliance",
+    "description": "Zero penalty guarantee with 100% compliance and timely filing of all tax returns.",
+    "icon": "✅",
+    "stat": "99.9%",
+    "statLabel": "Success Rate"
+  },
+  {
+    "id": 4,
+    "title": "24/7 Support",
+    "description": "Round-the-clock customer support to address all your tax-related queries and concerns.",
+    "icon": "🕐",
+    "stat": "24/7",
+    "statLabel": "Support"
+  }
+]

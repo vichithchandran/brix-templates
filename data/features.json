@@ -2,19 +2,19 @@
   {
     "id": 1,
     "img": "/Service Section.svg",
-    "title": "Lorem Ipsum",
-    "text": "Est quisque interdum gravida dui. Egestas morbi maecenas eu massa."
+    "title": "Tax Services",
+    "text": "Professional GST and Income Tax filing services with maximum refund guarantee and 100% compliance."
   },
   {
     "id": 2,
     "img": "/Service Section.svg",
-    "title": "Lorem Ipsum",
-    "text": "Est quisque interdum gravida dui. Egestas morbi maecenas eu massa."
+    "title": "Business Solutions",
+    "text": "Comprehensive business services including registration, compliance, and advisory solutions."
   },
   {
     "id": 3,
     "img": "/Service Section.svg",
-    "title": "Lorem Ipsum",
-    "text": "Est quisque interdum gravida dui. Egestas morbi maecenas eu massa."
+    "title": "Financial Planning",
+    "text": "Expert financial planning and investment advisory services to grow your wealth."
   }
 ]
