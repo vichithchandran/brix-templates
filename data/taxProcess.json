@@ -1,0 +1,14 @@
+{
+  "gst": [
+    { "step": 1, "title": "Consult & KYC", "desc": "Collect business details, KYC, and requirement brief." },
+    { "step": 2, "title": "Prepare & Review", "desc": "Prepare forms and review books, sales/purchase registers." },
+    { "step": 3, "title": "File & Acknowledge", "desc": "File return/registration and share ARN/acknowledgement." },
+    { "step": 4, "title": "Track & Support", "desc": "Track status, reply to queries, and support post‑filing." }
+  ],
+  "incomeTax": [
+    { "step": 1, "title": "Document Checklist", "desc": "Gather Form 16/26AS, AIS/TIS, bank and investment proofs." },
+    { "step": 2, "title": "Compute & Optimize", "desc": "Compute income, choose regime, and optimize deductions." },
+    { "step": 3, "title": "E‑File Return", "desc": "E‑file ITR, verify, and share acknowledgement." },
+    { "step": 4, "title": "Assess & Respond", "desc": "Monitor intimation and reply to any notices as needed." }
+  ]
+}

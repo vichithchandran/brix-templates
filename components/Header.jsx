@@ -1,5 +1,6 @@
 import Image from "next/image";
 import RotatingText from "./RotatingText";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -40,7 +41,11 @@ export default function Header() {
         <ul className="hidden md:flex gap-6 lg:gap-10 xl:gap-14 items-center font-2 text-sm lg:text-base">
           <li className="hover:text-[#5F82FF] hover:font-semibold cursor-pointer">Home</li>
           <li className="hover:text-[#5F82FF] hover:font-semibold cursor-pointer">About Us</li>
-          <li className="hover:text-[#5F82FF] hover:font-semibold cursor-pointer">Page</li>
+          <li>
+            <Link href="/tax" className="hover:text-[#5F82FF] hover:font-semibold cursor-pointer">
+              Tax Services
+            </Link>
+          </li>
           <li className="hover:text-[#5F82FF] hover:font-semibold cursor-pointer">News</li>
           <li className="hover:text-[#5F82FF] hover:font-semibold cursor-pointer">Contact Us</li>
           <button className="ml-2 lg:ml-4 px-3 sm:px-4 py-2 bg-[#5F82FF] font-semibold rounded-md">

@@ -1,0 +1,46 @@
+{
+  "gst": [
+    {
+      "id": "gst-registration",
+      "title": "GST Registration",
+      "text": "End‑to‑end support for new GST registration, composition scheme, and amendments."
+    },
+    {
+      "id": "gst-returns",
+      "title": "Monthly/Quarterly GST Returns",
+      "text": "Accurate preparation and filing of GSTR‑1, GSTR‑3B, and annual returns."
+    },
+    {
+      "id": "gst-reconciliation",
+      "title": "Input Tax Credit Reconciliation",
+      "text": "Match books with GSTR‑2B and resolve mismatches to maximize ITC."
+    },
+    {
+      "id": "gst-notice",
+      "title": "Notices & Compliance",
+      "text": "Draft responses and representation for departmental notices and audits."
+    }
+  ],
+  "incomeTax": [
+    {
+      "id": "itr-filing",
+      "title": "ITR Filing",
+      "text": "Individual and business returns across ITR‑1 to ITR‑7 with deduction planning."
+    },
+    {
+      "id": "tax-planning",
+      "title": "Tax Planning",
+      "text": "Personalized strategies to reduce liability via 80C/80D/80G and more."
+    },
+    {
+      "id": "tds-compliance",
+      "title": "TDS/TCS Compliance",
+      "text": "Monthly deposit, quarterly returns (Form 24Q/26Q), and corrections."
+    },
+    {
+      "id": "scrutiny-reply",
+      "title": "Scrutiny & Notices",
+      "text": "Draft replies for 139(9), 143(1), 143(2), faceless assessments, and appeals."
+    }
+  ]
+}
