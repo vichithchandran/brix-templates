@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "icon": "👤",
+    "title": "Individual Tax Filing",
+    "description": "Comprehensive income tax return filing services for salaried individuals, freelancers, and professionals with expert guidance on deductions and tax savings.",
+    "keyFeatures": [
+      "ITR-1 to ITR-4 filing for all income types",
+      "Maximum deduction claims under Section 80C, 80D, and more",
+      "Capital gains tax optimization",
+      "Expert review before filing"
+    ],
+    "priceRange": "₹999"
+  },
+  {
+    "id": 2,
+    "icon": "🏢",
+    "title": "Business Tax Solutions",
+    "description": "Complete tax solutions for businesses, startups, and companies including audit, compliance, and strategic tax planning to minimize liability.",
+    "keyFeatures": [
+      "Corporate tax return filing (ITR-5, ITR-6, ITR-7)",
+      "Tax audit under Section 44AB",
+      "Advance tax calculation & payment",
+      "TDS compliance & return filing"
+    ],
+    "priceRange": "₹4,999"
+  },
+  {
+    "id": 3,
+    "icon": "📈",
+    "title": "Tax Planning & Advisory",
+    "description": "Strategic tax planning services to legally minimize your tax burden through optimal investment structuring and proactive compliance management.",
+    "keyFeatures": [
+      "Annual tax planning consultation",
+      "Investment strategy for tax savings",
+      "Salary restructuring for employees",
+      "Year-end tax optimization"
+    ],
+    "priceRange": "₹2,499"
+  },
+  {
+    "id": 4,
+    "icon": "🔍",
+    "title": "Tax Audit & Assessment",
+    "description": "Expert assistance in tax audits, assessments, and scrutiny proceedings with comprehensive support from notice receipt to final settlement.",
+    "keyFeatures": [
+      "Tax audit report preparation",
+      "Assessment proceedings support",
+      "Scrutiny notice response",
+      "Documentation and representation"
+    ],
+    "priceRange": "₹7,999"
+  }
+]
