@@ -29,6 +29,7 @@ export default function FAQ() {
     fetchFAQs();
   }, []);
 
+
   return (
     <section className="relative min-h-screen flex items-center justify-center px-6 mt-32 mb-32">
       <div className="w-full max-w-[1322px] bg-[#E4E4E42E] rounded-[40px] p-10 gap-10 text-center text-white relative overflow-hidden">
