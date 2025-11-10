@@ -65,7 +65,6 @@ Use and customize the templates to jumpstart your web projects.
 ├── pages/          # Application routes and pages (Next.js)
 ├── public/         # Static assets
 ├── styles/         # Global and component-level CSS
-├── tailwind.config.js # Tailwind CSS configuration
 ├── package.json    # Project configuration and dependencies
 └── README.md
 ```
