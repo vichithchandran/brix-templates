@@ -57,18 +57,6 @@ Use and customize the templates to jumpstart your web projects.
 - Adjust global or component-level styles as needed
 - Modify Tailwind configuration in `tailwind.config.js`
 
-## Folder Structure
-
-```plaintext
-/
-├── components/     # Reusable UI components
-├── pages/          # Application routes and pages (Next.js)
-├── public/         # Static assets
-├── styles/         # Global and component-level CSS
-├── package.json    # Project configuration and dependencies
-└── README.md
-```
-
 ## Contributing
 
 Contributions are welcome!  
